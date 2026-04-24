@@ -1,0 +1,12 @@
+@use "./reset.scss";
+@use "./fonts.scss";
+
+body {
+  font-family: $font-sf, sans-serif;
+}
+
+html,
+body,
+#root {
+  overflow-x: hidden;
+}

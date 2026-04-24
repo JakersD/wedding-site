@@ -1,0 +1,111 @@
+.ticket {
+  position: relative;
+  width: min(100%, 375px);
+  margin: 0 auto;
+
+  &Bg {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 4px;
+  }
+
+  &Content {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &Top {
+    flex: 0 0 auto;
+  }
+
+  &Title {
+    display: flex;
+    flex-direction: column;
+    color: #7a8766;
+    padding: 7% 5% 0 5%;
+
+    &Up {
+      font-family: $font-snell-roundhand;
+      font-size: 72px;
+      letter-spacing: -1%;
+    }
+
+    &Down {
+      font-family: $font-cormorant;
+      font-size: 64px;
+      letter-spacing: -1%;
+    }
+
+    &Line {
+      text-align: right;
+      margin-top: -16px;
+    }
+  }
+
+  &Photo {
+    flex: 0 0 auto;
+    margin-top: 5%;
+    overflow: hidden;
+    padding: 0 3%;
+
+    & img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &Divider {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 6.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+
+    &Dot {
+      width: 16px;
+      height: 3px;
+      background-color: #98a683;
+    }
+  }
+
+  &Bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &Subtitle {
+      font-size: 16px;
+      line-height: 130%;
+      font-weight: 500;
+      letter-spacing: -2%;
+      color: #7a8766;
+      margin-bottom: 4px;
+    }
+
+    &Date {
+      font-family: $font-cormorant;
+      font-size: 48px;
+      line-height: 105%;
+      letter-spacing: -2%;
+      font-variant-numeric: lining-nums;
+      color: #7a8766;
+
+      &Divide {
+        display: inline-block;
+        width: 1px;
+        height: 26px;
+        margin: 0 16px;
+        background-color: #98a683;
+      }
+    }
+  }
+}

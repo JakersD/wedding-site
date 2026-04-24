@@ -1,0 +1,110 @@
+.inviteSection {
+  position: relative;
+  background: url("@/shared/assets/img/letter-bg.jpg") no-repeat center;
+}
+
+.letterScene {
+  position: relative;
+  height: 252px;
+  margin-bottom: 52px;
+}
+
+.letter {
+  position: relative;
+  width: min(100%, 375px);
+  margin: 0 auto;
+  transform: translateY(-256px) rotate(-3deg);
+
+  &Bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &Content {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3% 0 3%;
+  }
+
+  &Title {
+    font-family: $font-cormorant-garamond;
+    font-size: 36px;
+    line-height: 80%;
+    text-align: center;
+    color: #7a8766;
+    padding: 40px 0 24px 0;
+    font-variant-caps: all-small-caps;
+
+    &Char {
+      font-variant-caps: normal;
+      font-family: $font-snell-roundhand;
+      font-size: 56px;
+    }
+  }
+
+  &Text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #606c4f;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &Bold {
+      font-weight: 500;
+    }
+  }
+}
+
+.announce {
+  text-align: center;
+  padding: 0 7% 26% 7%;
+
+  &Title {
+    font-family: $font-cormorant-garamond;
+    font-size: 36px;
+    line-height: 80%;
+    color: #7a8766;
+    font-variant-caps: all-small-caps;
+    margin-bottom: 24px;
+
+    &Char {
+      font-variant-caps: normal;
+      font-family: $font-gloria;
+      font-size: 54px;
+    }
+  }
+
+  &Text {
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &SubTitle {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 130%;
+      color: #606c4f;
+      margin-bottom: 8px;
+    }
+
+    &Description {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 130%;
+      letter-spacing: 0.02em;
+      color: #606c4f;
+    }
+  }
+}
