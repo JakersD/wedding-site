@@ -1,4 +1,6 @@
 .footer {
+  max-width: 1024px;
+  margin: 0 auto;
   position: relative;
   width: 100%;
   display: flex;
@@ -19,14 +21,14 @@
 
 .pattern {
   position: absolute;
-  top: -32px;
-  width: 105%;
+  top: -35px;
+  width: 101%;
   height: 90px;
   background-image: url("@/shared/assets/icon/pattern2.svg");
   background-repeat: repeat-x;
   background-size: auto 250px;
   background-position: center;
-  transform: rotate(-5deg);
+  transform: rotate(-4deg);
 }
 
 .textWrapper {

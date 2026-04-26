@@ -1,4 +1,6 @@
 .evening {
+  max-width: 1024px;
+  margin: 0 auto;
   position: relative;
   width: 100%;
   min-height: 850px;
@@ -7,22 +9,18 @@
 
 .tear {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -42px;
   width: 100%;
-  height: auto;
-  margin-top: -24px;
-  z-index: 4;
+  height: 60px;
+  background-image: url("@/shared/assets/icon/tear.svg");
+  z-index: 2;
 }
 
 .background {
   position: absolute;
   inset: 0;
   background-image: url("@/shared/assets/img/stripes-bg.jpg");
-  background-repeat: repeat-y;
-  background-position: center top;
-  background-size: cover;
-  z-index: 1;
+  background-repeat: repeat-x;
 }
 
 .inner {
@@ -81,9 +79,9 @@
 
 .beads {
   position: absolute;
-  left: 0;
-  bottom: -38px;
-  width: 1600px;
-  height: auto;
-  z-index: 5;
+  bottom: -42px;
+  width: 100%;
+  height: 94px;
+  background: url("@/shared/assets/icon/beads.svg");
+  z-index: 2;
 }

@@ -1,4 +1,10 @@
 .inviteSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
   position: relative;
   background: url("@/shared/assets/img/letter-bg.jpg") no-repeat center;
 }
@@ -66,8 +72,10 @@
 }
 
 .announce {
+  max-width: 375px;
+  width: 100%;
   text-align: center;
-  padding: 0 7% 26% 7%;
+  padding: 0 24px 120px;
 
   &Title {
     font-family: $font-cormorant-garamond;

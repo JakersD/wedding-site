@@ -1,4 +1,6 @@
 .dressCode {
+  max-width: 1024px;
+  margin: 0 auto;
   position: relative;
   width: 100%;
   background-color: #f7dcdc;
@@ -23,12 +25,9 @@
 .bow {
   position: absolute;
   top: -76px;
-  left: 50%;
+  left: 53%;
   transform: translateX(-53%);
-  width: 1440px;
-  max-width: none;
-  max-width: none;
-  height: 200px;
+  width: 1024px;
   display: block;
 }
 

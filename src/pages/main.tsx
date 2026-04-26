@@ -10,7 +10,7 @@ import { Footer } from "@/components/footer/footer";
 
 export const MainPage: React.FC = ({}) => {
   return (
-    <div>
+    <>
       <Bar />
       <Header />
       <Letter />
@@ -19,6 +19,6 @@ export const MainPage: React.FC = ({}) => {
       <Present />
       <Chat />
       <Footer />
-    </div>
+    </>
   );
 };

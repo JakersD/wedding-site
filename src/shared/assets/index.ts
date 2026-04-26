@@ -11,9 +11,7 @@ import GalleryPhoto from "./img/gallery-photo.png";
 import TicketIcon from "./icon/ticket.svg";
 import LetterIcon from "./icon/letter.svg";
 import BowIcon from "./icon/bow.svg";
-import TearIcon from "./icon/tear.svg";
 import MirrorIcon from "./icon/mirror.svg";
-import BeadsIcon from "./icon/beads.svg";
 import HeartIcon from "./icon/heart.svg";
 import PaperIcon from "./icon/paper.svg";
 import FooterSheet from "./icon/footerSheet.svg";
@@ -30,9 +28,7 @@ export {
   GreenPalette,
   PinkPalette,
   YellowPalette,
-  TearIcon,
   MirrorIcon,
-  BeadsIcon,
   HeartIcon,
   PaperIcon,
   GalleryPhoto,

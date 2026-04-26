@@ -1,12 +1,12 @@
 import React from "react";
 
 import styles from "./evening.module.scss";
-import { BeadsIcon, MirrorIcon, TearIcon } from "@/shared/assets";
+import { MirrorIcon } from "@/shared/assets";
 
 export const Evening: React.FC = () => {
   return (
     <section className={styles.evening}>
-      <img className={styles.tear} src={TearIcon} alt="Декоративный элемент" />
+      <div className={styles.tear} />
 
       <div className={styles.background} />
 
@@ -36,11 +36,7 @@ export const Evening: React.FC = () => {
         </div>
       </div>
 
-      <img
-        className={styles.beads}
-        src={BeadsIcon}
-        alt="Декоративный элемент"
-      />
+      <div className={styles.beads} />
     </section>
   );
 };

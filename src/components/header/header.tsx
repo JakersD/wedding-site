@@ -4,8 +4,8 @@ import { Ticket } from "./ui/ticket";
 
 export const Header: React.FC = () => {
   return (
-    <section className={styles.headerSection}>
+    <header className={styles.headerSection}>
       <Ticket />
-    </section>
+    </header>
   );
 };
