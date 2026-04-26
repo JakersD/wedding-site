@@ -1,0 +1,150 @@
+.present {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("@/shared/assets/img/present-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 24px 0 100px 0;
+}
+
+.presentInner {
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 24px;
+  margin: 52px 0 24px;
+  font-family: $font-cormorant-garamond;
+  font-size: 36px;
+  line-height: 80%;
+  font-variant-caps: all-small-caps;
+  color: #5c5353;
+
+  &Up {
+    font-family: $font-snell-roundhand;
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    font-variant-caps: normal;
+  }
+
+  &UpDown {
+    font-family: $font-snell-roundhand;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    font-variant-caps: normal;
+  }
+
+  &Line {
+    align-self: flex-end;
+  }
+}
+
+.text {
+  max-width: 375px;
+  padding: 0 20px;
+  text-align: center;
+  color: #4e4848;
+  margin-bottom: 48px;
+
+  &P {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    margin-bottom: 28px;
+
+    &:last-child {
+      margin-bottom: 32px;
+    }
+
+    &Bold {
+      font-weight: 500;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 500px;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  background-color: #e8a0a8;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.heartWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 358 / 306;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+  }
+}
+
+.heartContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 14%;
+  gap: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.heartLabel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #fefaef;
+}
+
+.cardTimer {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 8px;
+}
+
+.cardTimerTime {
+  font-family: $font-cormorant;
+  font-size: 48px;
+  line-height: 105%;
+  letter-spacing: -2%;
+  font-variant-numeric: lining-nums;
+  color: #fefaef;
+}
+
+.cardTimerDesc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -3%;
+  color: #fefaef;
+}

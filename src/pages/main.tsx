@@ -4,6 +4,9 @@ import React from "react";
 import { Letter } from "@/components/letter/letter";
 import { DressCode } from "@/components/dress-code/dress-code";
 import { Evening } from "@/components/evening/evening";
+import { Present } from "@/components/present/present";
+import { Chat } from "@/components/chat/chat";
+import { Footer } from "@/components/footer/footer";
 
 export const MainPage: React.FC = ({}) => {
   return (
@@ -13,6 +16,9 @@ export const MainPage: React.FC = ({}) => {
       <Letter />
       <DressCode />
       <Evening />
+      <Present />
+      <Chat />
+      <Footer />
     </div>
   );
 };
