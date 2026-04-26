@@ -5,6 +5,7 @@ import path from "path";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
+  base: "/wedding-site",
   plugins: [react(), babel({ presets: [reactCompilerPreset()] }), svgr()],
   resolve: {
     alias: {

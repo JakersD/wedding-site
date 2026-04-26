@@ -1,5 +1,6 @@
 {
   "name": "wedding",
+  "homepage": "https://JakersD.github.io/wedding-site/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "motion": "^12.38.0",
     "motion-plus": "^1.5.1",
     "react": "^19.2.5",
